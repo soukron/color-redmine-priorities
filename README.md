@@ -1,25 +1,28 @@
-# Introducción
-Extension *cutre* para agregar color a las celdas de prioridad de Redmine.
+# Introduction
+Quick-and-dirty extension to add color to priorities cells in Redmine query
+results.
 
-Se puede personalizar la lista de prioridades/color modificando la variable
-*prioritiesList*. Incluye la lista de prioridades por defecto en Redmine del
-idioma Español.
+List/colors can be customized by editing *prioritiesList* array. It includes
+the default Spanish/English priorities in a fresh Redmine installation.
 
-# Construcción
+Note: this code only works in https://*/redmine/ URL.
+
+# Build
 ```sh
 $ git clone https://github.com/soukron/color-redmine-priorities.git
 $ cd color-redmine-priorities
 $ rake build
 ```
 
-# Mejoras por implementar
-Algunas ideas futuras:
- - soporte para Firefox
- - soporte para multiples idiomas
- - configuracion de prioridades a través de una pagina de configuración
+# Improvements
+Some ideas:
+ - Firefox support
+ - Multiple languages support
+ - Configuration page to add Redmine URL
+ - Configuration page to add/remove/customize list items and colors
 
-# Contacto
-Peticiones? Feedback? <a href="mailto:soukron@gmbros.net">Escribeme</a>
+# Contact
+Questions? Feedback? <a href="mailto:soukron@gmbros.net">Mail me</a>
 
-# Licencia
+# License
 GPL

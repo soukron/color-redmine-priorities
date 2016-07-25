@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Colorea las prioridades en Redmine",
-  "short_name": "Colorea las prioridades en Redmine",
+  "name": "Add color to Redmine priorities cells",
+  "short_name": "Add color to Redmine priorities cells",
   "version": "0.1.0",
-  "description": "Extension para colorear las prioridades de Redmine",
+  "description": "Extension to add some colors to Redmine priorities cells",
   "icons": {
     "128": "icon-128.png"
   },
@@ -12,6 +12,6 @@
   "content_scripts": [{
     "css": [],
     "js": ["color-redmine-priorities.js"],
-    "matches": ["https://*/redmine/*"]
+    "matches": ["https://*/redmine"]
   }]
 }
